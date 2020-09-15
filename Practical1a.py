@@ -13,10 +13,10 @@ def search_l1():
         
 search_l1()
 
-def reverse_l1():
-    print("Reversing the list1: ", l1.reverse())
+def reverse_list():
+    print("Reversing the list1: ",l1[::-1])
     
-reverse_l1()
+reverse_list()
 
 l2 = ["car", "pen", "book", "crayons"]
 print("List 2: ",l2)
